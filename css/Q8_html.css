@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.item {
+  width: 200px;
+  margin-top: 10px;
+}
+
+.item_1 {
+  content: url(https://source.unsplash.com/collection/36942261/480x480?1);
+}
+
+.item_2 {
+  content: url(https://source.unsplash.com/collection/36942261/480x480?2);
+}
+
+.item_3 {
+  content: url(https://source.unsplash.com/collection/36942261/480x480?3);
+  margin-bottom: 10px;
+}

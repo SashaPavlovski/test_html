@@ -1,0 +1,19 @@
+.form_class {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.button_class {
+  color: wheat;
+  background: rgba(176, 136, 6, 0.963);
+  border: 5px solid rgba(72, 58, 13, 0.963);
+  padding: 2px;
+  border-radius: 8px;
+  box-shadow: 0 0 0 5px rgb(237, 188, 213);
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}

@@ -1,0 +1,37 @@
+.container {
+  display: grid;
+  grid-template-rows: 200px 300px 200px;
+  grid-template-columns: repeat(3, 30%);
+  grid-template-areas:
+    "header header header"
+    "nav article aside"
+    "footer footer footer";
+  gap: 10px;
+  justify-content: center;
+}
+
+.box {
+  border-radius: 10px;
+  text-align: center;
+}
+
+.box1 {
+  background-color: darkcyan;
+  grid-area: header;
+}
+.box2 {
+  background-color: plum;
+  grid-area: nav;
+}
+.box3 {
+  background-color: red;
+  grid-area: article;
+}
+.box4 {
+  background-color: yellow;
+  grid-area: aside;
+}
+.box5 {
+  background-color: green;
+  grid-area: footer;
+}
